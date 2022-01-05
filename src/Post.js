@@ -14,7 +14,7 @@ function Post({ profilePic, imgName, username, timestamp, message }) {
         <Avatar src={profilePic} />
         <div classname="post_topInfo">
           <h3>{username}</h3>
-          <p>{new Date(parseInt(timestamp)).toUTCString()}</p>
+          <p>{(parseInt(timestamp)).toUTCString()}</p>
         </div>
       </div>
 
